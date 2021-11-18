@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: app-one
-          image: nginx:stable-alpine
+          image: dmalexi/sscarecr:v1
           resources:
             requests:
               memory: "64Mi"
